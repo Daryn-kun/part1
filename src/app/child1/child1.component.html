@@ -1,0 +1,8 @@
+<button (click)="getStudentsName()">
+  Get Student's Name
+</button>
+<ul>
+  <li *ngFor="let student of students">
+    {{student.firstName}} {{student.lastName}}
+  </li>
+</ul>
